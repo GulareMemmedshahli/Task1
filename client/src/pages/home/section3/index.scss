@@ -1,0 +1,64 @@
+.section3{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    margin-top: 10vh;
+    .leftyellow{
+        background-color: #FFB606;
+        width: 50%;
+        height: 70vh;
+        .yellowtext{
+      margin-top: 200px;
+      margin-left: 200px;
+      button{
+        background-color: #1A1A1A;
+        color:white;
+        height: 40px;
+        width: 200px;
+        cursor: pointer;
+        border: none;
+    margin-left: 100px;
+      }
+        }
+        h2{
+            display: flex;
+            color: white;
+           text-align: center;
+        }
+        p{
+            color: white;
+        }
+    }
+    .rightsection3{
+        background-image: url("https://preview.colorlib.com/theme/course/images/search_background.jpg");
+        background-size: cover;
+        opacity: 0.3;
+        height: 70vh;
+        width: 50%;
+        h2{
+            text-align: center;
+            color: black;
+            margin-top: 170px;
+        }
+        .rightext{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            button{
+                width:400px ;
+                height: 35px;
+                margin-top: 20px;
+                background-color: #FFB606;
+                border: none;
+                color: white;
+            }
+            input{
+                margin-top: 20px;
+                width: 400px;
+                height: 30px;
+            }
+        }
+    }
+}

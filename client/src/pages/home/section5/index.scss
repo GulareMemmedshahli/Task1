@@ -1,0 +1,29 @@
+.section5{
+    height: 80vh;
+    margin-top: 100px;
+}
+.umumicard{
+display: flex;
+flex-direction: column;
+row-gap: 30px;
+}
+.section5card{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #FFB606;
+        border: 1px solid #FFB606;
+        width: 100px;
+        height: 100px;
+    }
+    img{
+        width: 300px;
+    }
+}

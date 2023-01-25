@@ -1,0 +1,64 @@
+.data{
+    margin-top: 10vh;
+    h1{
+        text-align: center;
+    }
+ .searchsort{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    input{
+        width: 200px;
+    }
+    button{
+        margin: 10px;
+        width: 100px;
+        height:20px;
+        background-color:#FFB606;
+        border: none;
+        cursor: pointer;
+        color: white;
+    }
+ }
+    .datatext{
+        display: flex;
+        justify-content: center;
+      
+    }
+    .datacard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    
+        .cards{
+            width: 400px;
+           .card1{
+            img{
+                width: 350px;
+            }
+           }
+           .dataalt{
+            display: flex;
+          margin-top: 20px;
+            img{
+                width: 50px;
+                border-radius: 50%;
+                column-gap: 50px;
+            }
+            .dataalt1{
+                display: flex;
+                column-gap: 50px;
+              
+                .price{
+                    width: 50px;
+                    text-align: center;
+                    background-color: #FFB606;
+                }
+            }
+    
+           
+           }
+        }
+    }
+}

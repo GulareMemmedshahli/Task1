@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 50%;
+    height: 10vh;
+background-color: white;
+background-color: transparent;
+position: fixed;
+z-index: 1;
+margin-left: 40vh;
+
+.headercolor{
+    background-color: white;
+    // height: 10vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.headertel{
+        display: flex;
+        background-color: #FFB606;
+        height: 5vh;
+        margin-right: 2vh;
+      
+        // width: 200px;
+    }
+    .link{
+        a{
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+        }
+     
+    }
+}
